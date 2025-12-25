@@ -11,6 +11,8 @@ html {
 body {
     background: var(--pri-col);
     color: var(--sec-col);
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -168,6 +170,14 @@ nav a:link, nav a:visited {
     font-size: 5rem;
 }
 
+.pagelink h1:hover {
+    text-decoration: underline;
+}
+
+.pagelink h1 {
+    transition: all 0.2s;
+}
+
 /* PROJECTS STYLE */
 
 .projects p{
@@ -221,7 +231,11 @@ nav a:link, nav a:visited {
     }
 
     .homepage .pagelink h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
     }
 
 
@@ -299,7 +313,7 @@ nav a:link, nav a:visited {
 
 
     .homepage header h1{
-        font-size: 5.3rem;
+        font-size: 4.5rem;
     }
 
     .homepage .about {
@@ -321,13 +335,6 @@ The CSS styles here will be very similar to those found in last week’s exercis
         transform: scale(1.05);
     }
 
-    .pagelink h1:hover {
-        text-decoration: underline;
-    }
-
-    .pagelink h1 {
-        transition: all 0.2s;
-    }
 }
 
 
